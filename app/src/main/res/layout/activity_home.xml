@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".HomeActivity"
+    android:background="@drawable/p">
+    <TextView
+        android:id="@+id/welcome"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="100dp"
+        android:textSize="40dp"
+        android:textStyle="italic|bold"
+        android:drawableRight="@drawable/s1"
+        android:textColor="@color/black"/>
+    <TextView
+        android:id="@+id/desc"
+        android:layout_marginTop="10dp"
+        android:textColor="@color/black"
+        android:text="What do you need today!"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/welcome"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+    <Button
+        android:id="@+id/meal"
+        android:layout_below="@+id/desc"
+        android:layout_width="300dp"
+        android:layout_height="40dp"
+        android:text="Meal Plan"
+        android:textColor="@color/black"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/button_round1"
+        android:layout_marginTop="50dp"
+        android:textAllCaps="false" />
+    <Button
+        android:id="@+id/bmi"
+        android:layout_below="@+id/meal"
+        android:layout_width="300dp"
+        android:layout_height="40dp"
+        android:text="BMI"
+        android:textColor="@color/black"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/button_round1"
+        android:layout_marginTop="25dp"
+        android:textAllCaps="false" />
+    <Button
+        android:id="@+id/prof"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:text="My Profile"
+        android:drawableLeft="@drawable/user"
+        android:textColor="@color/black"
+        android:background="@drawable/button_round2"
+        android:layout_marginTop="25dp"
+        android:textAllCaps="false" />
+    <Button
+        android:id="@+id/water"
+        android:layout_below="@+id/bmi"
+        android:layout_width="300dp"
+        android:layout_height="40dp"
+        android:text="Water Measure"
+        android:textColor="@color/black"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/button_round1"
+        android:layout_marginTop="25dp"
+        android:textAllCaps="false" />
+
+</RelativeLayout>
